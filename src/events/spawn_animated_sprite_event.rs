@@ -2,6 +2,7 @@ use bevy::ecs::event::Event;
 
 use super::spawn_sprite_event::SpawnSpriteEvent;
 
+#[allow(dead_code)]
 #[derive(Event)]
 pub struct SpawnAnimatedSpriteEvent {
     pub tile_size: f32,
